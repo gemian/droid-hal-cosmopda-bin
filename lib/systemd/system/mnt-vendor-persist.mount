@@ -3,7 +3,7 @@ Description=Droid mount for /mnt/vendor/persist
 Before=local-fs.target systemd-modules-load.service
 
 [Mount]
-What=/dev/block/platform/bootdevice/by-name/persist
+What=/dev/disk/by-partlabel/persist
 Where=/mnt/vendor/persist
 Type=ext4
 Options=noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc
