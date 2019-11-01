@@ -3,7 +3,7 @@ Description=Droid mount for /mnt/vendor/protect_s
 Before=local-fs.target systemd-modules-load.service
 
 [Mount]
-What=/dev/disk/by-partlabel/protect_s
+What=/dev/disk/by-partlabel/protect2
 Where=/mnt/vendor/protect_s
 Type=ext4
 Options=noatime,nosuid,nodev,noauto_da_alloc,commit=1,nodelalloc
