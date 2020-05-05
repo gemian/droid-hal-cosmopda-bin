@@ -1,6 +1,0 @@
-bt_drv.ko: wmt_drv.ko
-wlan_drv_gen3.ko: wmt_chrdev_wifi.ko wmt_drv.ko
-gps_drv.ko: wmt_drv.ko
-wmt_drv.ko:
-fmradio_drv.ko: wmt_drv.ko
-wmt_chrdev_wifi.ko: wmt_drv.ko
