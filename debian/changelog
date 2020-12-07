@@ -1,9 +1,3 @@
-droid-hal-cosmopda (0.2) buster; urgency=low
-
-  * Removing wlan kernel driver as now part of the kernel build
-
- -- Adam Boardman <adamboardman@gmail.com>  Mon, 07 Dec 2020 17:25:34 +0000
-
 droid-hal-cosmopda (0.1) buster; urgency=low
 
   * Initial import
